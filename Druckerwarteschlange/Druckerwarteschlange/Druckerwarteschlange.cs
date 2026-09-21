@@ -10,7 +10,12 @@ public class Druckerwarteschlange
 
     public string? Drucke()
     {
+        if (warteschlange.Count == 0)
+        {
+            return null;
+        }
         
+        return warteschlange.Dequeue();
     }
 
     public string? Naechster()
