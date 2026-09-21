@@ -5,7 +5,7 @@ public class Druckerwarteschlange
     private readonly Queue<string> warteschlange = new();
     public void Auftrag(string dokument)
     {
-        
+        warteschlange.Enqueue(dokument);
     }
 
     public string? Drucke()
