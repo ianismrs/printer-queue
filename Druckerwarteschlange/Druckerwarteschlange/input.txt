@@ -1,0 +1,17 @@
+# Druckaufträge Büro 1
+AUFTRAG;Bericht.pdf
+auftrag;Foto.jpg
+AUFTRAG;Rechnung.pdf
+NAECHSTER
+OFFEN
+DRUCKE
+DRUCKE
+OFFEN
+AUFTRAG;Praesentation.pptx
+AUFTRAG
+DRUCKE
+DRUCKE
+DRUCKE
+KAFFEE;Espresso
+NAECHSTER
+OFFEN
