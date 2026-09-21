@@ -20,7 +20,12 @@ public class Druckerwarteschlange
 
     public string? Naechster()
     {
-        
+        if (warteschlange.Count == 0)
+        {
+            return null;
+        }
+
+        return warteschlange.Peek();
     }
 
     public int Offen()
