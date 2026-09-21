@@ -30,6 +30,6 @@ public class Druckerwarteschlange
 
     public int Offen()
     {
-        get;
+        return warteschlange.Count;
     }
 }
